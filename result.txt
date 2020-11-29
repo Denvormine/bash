@@ -1,0 +1,262 @@
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.000000] Linux version 5.4.0-53-generic (buildd@lcy01-amd64-007) (gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)) #59-Ubuntu SMP Wed Oct 21 09:38:44 UTC 2020 (Ubuntu 5.4.0-53.59-generic 5.4.65)
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-53-generic root=UUID=925e0624-454c-4490-9ffe-131512751a0f ro quiet splash
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.000000] KERNEL supported cpus:
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.000000]   Intel GenuineIntel
+--
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.262032] ACPI: Added _OSI(Processor Device)
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.262032] ACPI: Added _OSI(3.0 _SCP Extensions)
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.262032] ACPI: Added _OSI(Processor Aggregator Device)
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.262032] ACPI: Added _OSI(Linux-Dell-Video)
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.262032] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.262032] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.262516] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.263710] ACPI: Interpreter enabled
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.263717] ACPI: (supports S0 S5)
+--
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.308017] usbcore: registered new interface driver usbfs
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.308023] usbcore: registered new interface driver hub
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.308026] usbcore: registered new device driver usb
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.308044] pps_core: LinuxPPS API ver. 1 registered
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.308044] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.308045] PTP clock support registered
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.308069] EDAC MC: Ver: 3.0.0
+--
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.424068] ACPI: Sleep Button [SLPF]
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.425072] battery: ACPI: Battery Slot [BAT0] (battery present)
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.425100] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.425926] Linux agpgart interface v0.103
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.426858] loop: module loaded
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.426931] ata_piix 0000:00:01.1: version 2.13
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.427250] scsi host0: ata_piix
+--
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.442233] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.442234] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.442236] usb usb1: Product: EHCI Host Controller
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.442237] usb usb1: Manufacturer: Linux 5.4.0-53-generic ehci_hcd
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.442238] usb usb1: SerialNumber: 0000:00:0b.0
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.442361] hub 1-0:1.0: USB hub found
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.442365] hub 1-0:1.0: 12 ports detected
+--
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.502555] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.04
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.502556] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.502557] usb usb2: Product: OHCI PCI host controller
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.502558] usb usb2: Manufacturer: Linux 5.4.0-53-generic ohci_hcd
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.502559] usb usb2: SerialNumber: 0000:00:06.0
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.502659] hub 2-0:1.0: USB hub found
+Nov 15 23:07:10 ammvsu-VirtualBox kernel: [    0.502673] hub 2-0:1.0: 12 ports detected
+--
+Nov 15 23:14:21 ammvsu-VirtualBox systemd[1]: Stopping PackageKit Daemon...
+Nov 15 23:14:21 ammvsu-VirtualBox systemd[1]: Stopping System Logging Service...
+Nov 15 23:14:21 ammvsu-VirtualBox systemd[1]: Stopping RealtimeKit Scheduling Policy Service...
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.000000] Linux version 5.4.0-53-generic (buildd@lcy01-amd64-007) (gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)) #59-Ubuntu SMP Wed Oct 21 09:38:44 UTC 2020 (Ubuntu 5.4.0-53.59-generic 5.4.65)
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-53-generic root=UUID=925e0624-454c-4490-9ffe-131512751a0f ro quiet splash
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.000000] KERNEL supported cpus:
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.000000]   Intel GenuineIntel
+--
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.268473] ACPI: Added _OSI(Processor Device)
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.268473] ACPI: Added _OSI(3.0 _SCP Extensions)
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.268473] ACPI: Added _OSI(Processor Aggregator Device)
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.268473] ACPI: Added _OSI(Linux-Dell-Video)
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.268473] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.268473] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.269293] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.270556] ACPI: Interpreter enabled
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.270562] ACPI: (supports S0 S5)
+--
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.317525] usbcore: registered new interface driver usbfs
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.317532] usbcore: registered new interface driver hub
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.317536] usbcore: registered new device driver usb
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.317555] pps_core: LinuxPPS API ver. 1 registered
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.317555] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.317556] PTP clock support registered
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.317688] EDAC MC: Ver: 3.0.0
+--
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.436106] ACPI: Sleep Button [SLPF]
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.437221] battery: ACPI: Battery Slot [BAT0] (battery present)
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.437258] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.438120] Linux agpgart interface v0.103
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.439041] loop: module loaded
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.439135] ata_piix 0000:00:01.1: version 2.13
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.439412] scsi host0: ata_piix
+--
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.453068] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.453069] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.453070] usb usb1: Product: EHCI Host Controller
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.453070] usb usb1: Manufacturer: Linux 5.4.0-53-generic ehci_hcd
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.453071] usb usb1: SerialNumber: 0000:00:0b.0
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.453149] hub 1-0:1.0: USB hub found
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.453153] hub 1-0:1.0: 12 ports detected
+--
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.512795] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.04
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.512797] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.512798] usb usb2: Product: OHCI PCI host controller
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.512799] usb usb2: Manufacturer: Linux 5.4.0-53-generic ohci_hcd
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.512799] usb usb2: SerialNumber: 0000:00:06.0
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.512886] hub 2-0:1.0: USB hub found
+Nov 15 23:14:30 ammvsu-VirtualBox kernel: [    0.512897] hub 2-0:1.0: 12 ports detected
+--
+Nov 15 23:15:38 ammvsu-VirtualBox systemd[1]: Stopped Network Time Synchronization.
+Nov 15 23:15:38 ammvsu-VirtualBox kernel: [   72.082604] 20:15:38.210935 main     VBoxService 6.1.16 r140961 (verbosity: 0) linux.amd64 (Oct 15 2020 16:40:53) release log
+Nov 15 23:15:38 ammvsu-VirtualBox kernel: [   72.082604] 20:15:38.210937 main     Log opened 2020-11-15T20:15:38.210930000Z
+Nov 15 23:15:38 ammvsu-VirtualBox kernel: [   72.082651] 20:15:38.211046 main     OS Product: Linux
+Nov 15 23:15:38 ammvsu-VirtualBox kernel: [   72.082684] 20:15:38.211081 main     OS Release: 5.4.0-53-generic
+Nov 15 23:15:38 ammvsu-VirtualBox kernel: [   72.082711] 20:15:38.211114 main     OS Version: #59-Ubuntu SMP Wed Oct 21 09:38:44 UTC 2020
+Nov 15 23:15:38 ammvsu-VirtualBox kernel: [   72.082750] 20:15:38.211141 main     Executable: /opt/VBoxGuestAdditions-6.1.16/sbin/VBoxService
+--
+Nov 15 23:16:42 ammvsu-VirtualBox systemd[1]: lm-sensors.service: Succeeded.
+Nov 15 23:16:42 ammvsu-VirtualBox systemd[1]: Stopped Initialize hardware monitoring sensors.
+Nov 15 23:16:42 ammvsu-VirtualBox systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.000000] Linux version 5.4.0-53-generic (buildd@lcy01-amd64-007) (gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)) #59-Ubuntu SMP Wed Oct 21 09:38:44 UTC 2020 (Ubuntu 5.4.0-53.59-generic 5.4.65)
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-53-generic root=UUID=925e0624-454c-4490-9ffe-131512751a0f ro quiet splash
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.000000] KERNEL supported cpus:
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.000000]   Intel GenuineIntel
+--
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.265412] ACPI: Added _OSI(Processor Device)
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.265412] ACPI: Added _OSI(3.0 _SCP Extensions)
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.265412] ACPI: Added _OSI(Processor Aggregator Device)
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.265412] ACPI: Added _OSI(Linux-Dell-Video)
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.265412] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.265412] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.266153] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.267354] ACPI: Interpreter enabled
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.267361] ACPI: (supports S0 S5)
+--
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.315734] usbcore: registered new interface driver usbfs
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.315740] usbcore: registered new interface driver hub
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.315744] usbcore: registered new device driver usb
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.315764] pps_core: LinuxPPS API ver. 1 registered
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.315764] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.315765] PTP clock support registered
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.315792] EDAC MC: Ver: 3.0.0
+--
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.436147] ACPI: Sleep Button [SLPF]
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.437351] battery: ACPI: Battery Slot [BAT0] (battery present)
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.437383] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.438336] Linux agpgart interface v0.103
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.439279] loop: module loaded
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.439358] ata_piix 0000:00:01.1: version 2.13
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.439716] scsi host0: ata_piix
+--
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.457699] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.457700] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.457701] usb usb1: Product: EHCI Host Controller
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.457702] usb usb1: Manufacturer: Linux 5.4.0-53-generic ehci_hcd
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.457703] usb usb1: SerialNumber: 0000:00:0b.0
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.457784] hub 1-0:1.0: USB hub found
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.457788] hub 1-0:1.0: 12 ports detected
+--
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.517981] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.04
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.517983] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.517984] usb usb2: Product: OHCI PCI host controller
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.517985] usb usb2: Manufacturer: Linux 5.4.0-53-generic ohci_hcd
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.517986] usb usb2: SerialNumber: 0000:00:06.0
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.518084] hub 2-0:1.0: USB hub found
+Nov 15 23:16:54 ammvsu-VirtualBox kernel: [    0.518097] hub 2-0:1.0: 12 ports detected
+--
+Nov 15 23:17:02 ammvsu-VirtualBox vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Nov 15 23:17:02 ammvsu-VirtualBox kernel: [   12.122212] 20:17:02.089127 main     VBoxService 6.1.16 r140961 (verbosity: 0) linux.amd64 (Oct 15 2020 16:40:53) release log
+Nov 15 23:17:02 ammvsu-VirtualBox kernel: [   12.122212] 20:17:02.089129 main     Log opened 2020-11-15T20:17:02.089120000Z
+Nov 15 23:17:02 ammvsu-VirtualBox kernel: [   12.122268] 20:17:02.089219 main     OS Product: Linux
+Nov 15 23:17:02 ammvsu-VirtualBox kernel: [   12.122299] 20:17:02.089263 main     OS Release: 5.4.0-53-generic
+Nov 15 23:17:02 ammvsu-VirtualBox kernel: [   12.122329] 20:17:02.089293 main     OS Version: #59-Ubuntu SMP Wed Oct 21 09:38:44 UTC 2020
+Nov 15 23:17:02 ammvsu-VirtualBox kernel: [   12.122374] 20:17:02.089323 main     Executable: /opt/VBoxGuestAdditions-6.1.16/sbin/VBoxService
+--
+Nov 15 23:17:21 ammvsu-VirtualBox systemd[1]: lm-sensors.service: Succeeded.
+Nov 15 23:17:21 ammvsu-VirtualBox systemd[1]: Stopped Initialize hardware monitoring sensors.
+Nov 15 23:17:21 ammvsu-VirtualBox systemd[1]: Stopping Dispatcher daemon for systemd-networkd...
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.000000] Linux version 5.4.0-53-generic (buildd@lcy01-amd64-007) (gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)) #59-Ubuntu SMP Wed Oct 21 09:38:44 UTC 2020 (Ubuntu 5.4.0-53.59-generic 5.4.65)
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-53-generic root=UUID=925e0624-454c-4490-9ffe-131512751a0f ro quiet splash
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.000000] KERNEL supported cpus:
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.000000]   Intel GenuineIntel
+--
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.383195] ACPI: Added _OSI(Processor Device)
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.383195] ACPI: Added _OSI(3.0 _SCP Extensions)
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.383196] ACPI: Added _OSI(Processor Aggregator Device)
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.383197] ACPI: Added _OSI(Linux-Dell-Video)
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.383198] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.383199] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.389107] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.391376] ACPI: Interpreter enabled
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.391387] ACPI: (supports S0 S5)
+--
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.502274] usbcore: registered new interface driver usbfs
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.502280] usbcore: registered new interface driver hub
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.502287] usbcore: registered new device driver usb
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.502318] pps_core: LinuxPPS API ver. 1 registered
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.502319] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.502321] PTP clock support registered
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.502361] EDAC MC: Ver: 3.0.0
+--
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.981644] ACPI: Sleep Button [SLPF]
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.983052] battery: ACPI: Battery Slot [BAT0] (battery present)
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.983106] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.984907] Linux agpgart interface v0.103
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.986665] loop: module loaded
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.986837] ata_piix 0000:00:01.1: version 2.13
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    0.987398] scsi host0: ata_piix
+--
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    1.049775] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.04
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    1.049777] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    1.049778] usb usb1: Product: OHCI PCI host controller
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    1.049779] usb usb1: Manufacturer: Linux 5.4.0-53-generic ohci_hcd
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    1.049780] usb usb1: SerialNumber: 0000:00:06.0
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    1.049909] hub 1-0:1.0: USB hub found
+Nov 29 18:32:46 ammvsu-VirtualBox kernel: [    1.049922] hub 1-0:1.0: 12 ports detected
+--
+Nov 29 18:33:03 ammvsu-VirtualBox vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Nov 29 18:33:03 ammvsu-VirtualBox kernel: [   26.505419] 15:33:03.934824 main     VBoxService 6.1.16 r140961 (verbosity: 0) linux.amd64 (Oct 15 2020 16:40:53) release log
+Nov 29 18:33:03 ammvsu-VirtualBox kernel: [   26.505419] 15:33:03.934828 main     Log opened 2020-11-29T15:33:03.934808000Z
+Nov 29 18:33:03 ammvsu-VirtualBox kernel: [   26.505496] 15:33:03.934990 main     OS Product: Linux
+Nov 29 18:33:03 ammvsu-VirtualBox kernel: [   26.505525] 15:33:03.935033 main     OS Release: 5.4.0-53-generic
+Nov 29 18:33:03 ammvsu-VirtualBox kernel: [   26.505553] 15:33:03.935061 main     OS Version: #59-Ubuntu SMP Wed Oct 21 09:38:44 UTC 2020
+Nov 29 18:33:03 ammvsu-VirtualBox kernel: [   26.505590] 15:33:03.935089 main     Executable: /opt/VBoxGuestAdditions-6.1.16/sbin/VBoxService
+--
+Nov 29 19:02:09 ammvsu-VirtualBox systemd[1]: Finished Daily apt download activities.
+Nov 29 19:06:03 ammvsu-VirtualBox PackageKit: daemon quit
+Nov 29 19:06:03 ammvsu-VirtualBox systemd[1]: packagekit.service: Succeeded.
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.000000] Linux version 5.4.0-53-generic (buildd@lcy01-amd64-007) (gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)) #59-Ubuntu SMP Wed Oct 21 09:38:44 UTC 2020 (Ubuntu 5.4.0-53.59-generic 5.4.65)
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-53-generic root=UUID=925e0624-454c-4490-9ffe-131512751a0f ro quiet splash
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.000000] KERNEL supported cpus:
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.000000]   Intel GenuineIntel
+--
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.370931] ACPI: Added _OSI(Processor Device)
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.370932] ACPI: Added _OSI(3.0 _SCP Extensions)
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.370932] ACPI: Added _OSI(Processor Aggregator Device)
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.370933] ACPI: Added _OSI(Linux-Dell-Video)
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.370934] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.370935] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.378363] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.385778] ACPI: Interpreter enabled
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.385790] ACPI: (supports S0 S5)
+--
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.500447] usbcore: registered new interface driver usbfs
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.500453] usbcore: registered new interface driver hub
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.500459] usbcore: registered new device driver usb
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.500487] pps_core: LinuxPPS API ver. 1 registered
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.500488] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.500490] PTP clock support registered
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.500530] EDAC MC: Ver: 3.0.0
+--
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.979328] ACPI: Sleep Button [SLPF]
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.980533] battery: ACPI: Battery Slot [BAT0] (battery present)
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.980578] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.982024] Linux agpgart interface v0.103
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.983455] loop: module loaded
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.983579] ata_piix 0000:00:01.1: version 2.13
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    0.983970] scsi host0: ata_piix
+--
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    1.046139] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.04
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    1.046141] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    1.046143] usb usb1: Product: OHCI PCI host controller
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    1.046144] usb usb1: Manufacturer: Linux 5.4.0-53-generic ohci_hcd
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    1.046145] usb usb1: SerialNumber: 0000:00:06.0
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    1.046314] hub 1-0:1.0: USB hub found
+Nov 29 20:40:58 ammvsu-VirtualBox kernel: [    1.046329] hub 1-0:1.0: 12 ports detected
+--
+Nov 29 20:41:17 ammvsu-VirtualBox vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Nov 29 20:41:17 ammvsu-VirtualBox kernel: [   27.049790] 17:41:17.479462 main     VBoxService 6.1.16 r140961 (verbosity: 0) linux.amd64 (Oct 15 2020 16:40:53) release log
+Nov 29 20:41:17 ammvsu-VirtualBox kernel: [   27.049790] 17:41:17.479473 main     Log opened 2020-11-29T17:41:17.479409000Z
+Nov 29 20:41:17 ammvsu-VirtualBox kernel: [   27.050155] 17:41:17.480065 main     OS Product: Linux
+Nov 29 20:41:17 ammvsu-VirtualBox kernel: [   27.051808] 17:41:17.481949 main     OS Release: 5.4.0-53-generic
+Nov 29 20:41:17 ammvsu-VirtualBox kernel: [   27.051895] 17:41:17.482031 main     OS Version: #59-Ubuntu SMP Wed Oct 21 09:38:44 UTC 2020
+Nov 29 20:41:17 ammvsu-VirtualBox kernel: [   27.051942] 17:41:17.482117 main     Executable: /opt/VBoxGuestAdditions-6.1.16/sbin/VBoxService
